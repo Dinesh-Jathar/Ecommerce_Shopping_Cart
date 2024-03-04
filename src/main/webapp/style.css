@@ -1,0 +1,51 @@
+@charset "ISO-8859-1";
+  section{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+       section div{
+            border: 2px solid black;
+            height: 550px;
+            width: 30%;
+            border-radius: 20px;
+        }
+        section div h2{
+           border: 1px solid grey;
+            text-align: center;
+            width: 30%;
+            margin: 1rem 0 0 10rem;
+            border-radius: 10px;
+        }
+        form{
+            margin: 2rem 2rem;
+        }
+        form input{
+            height: 30px;
+            width: 100%;
+            margin: 1rem 0;
+            border: none;
+            outline: none;
+            border: 1px solid lightgrey;
+        }
+        form label{
+            font-size: 20px;
+        }
+        form button{
+            height: 35px;
+            width: 100%;
+            margin: 1rem 0;
+            border: none;
+            font-size: 15px;
+            background-color: dimgrey;
+        }
+        
+        .valid{
+            color: red;
+            font-size: 20px;
+            display: flex;
+            justify-content: end;
+            position: absolute;
+            top: 50px;
+        }
